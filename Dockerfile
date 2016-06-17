@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM geovanasouza/golang:1.6
 
 USER nobody
 
