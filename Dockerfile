@@ -1,5 +1,6 @@
 FROM geovanasouza/golang:1.6
 
+EXPOSE 8080
 USER nobody
 
 RUN mkdir -p /go/src/github.com/openshift/golang-ex
